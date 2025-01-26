@@ -8,7 +8,6 @@ export const Swiper = () => {
   const [isDragging, setIsDragging] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [maxCardCount, setMaxCardCount] = useState(1);
-  const [containerSize, setContainerSize] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
 
 
@@ -72,7 +71,8 @@ export const Swiper = () => {
           className="overflow-hidden w-full"
 
       >
-        <SliderButtons cards={cards} setCurrentIndex={setCurrentIndex} currentIndex={currentIndex}/>
+        <SliderButtons cards={cards} setCurrentIndexAction={setCurrentIndex} currentIndex={currentIndex}
+                       className={' flex items-center gap-2 mb-5 md:hidden'}/>
         <SliderContainer
             currentIndex={currentIndex}
             isDragging={isDragging}

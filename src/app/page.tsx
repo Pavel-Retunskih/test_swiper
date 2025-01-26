@@ -1,7 +1,5 @@
 import Logo from "@/assets/svg/Logo";
 import ExitIcon from "@/assets/svg/ExitIcon";
-
-import {StaticImageData} from "next/image";
 import {Swiper} from "@/shared/Slider/Slider";
 import React from "react";
 

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faace37a-5fef-4069-863d-5b88f6f1d873" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/shared/Slider/SliderButtons/SliderButtons.tsx" afterDir="false" />
+    <list default="true" id="faace37a-5fef-4069-863d-5b88f6f1d873" name="Changes" comment="add buttons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/Slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Slider/Slider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Slider/SliderButtons/SliderButtons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Slider/SliderButtons/SliderButtons.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,17 @@
       <workItem from="1737898979478" duration="3426000" />
       <workItem from="1737902482722" duration="54000" />
       <workItem from="1737902558741" duration="5302000" />
+      <workItem from="1737912520223" duration="317000" />
     </task>
+    <task id="LOCAL-00001" summary="add buttons">
+      <option name="closed" value="true" />
+      <created>1737910656663</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737910656663</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,5 +121,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="add buttons" />
   </component>
 </project>
