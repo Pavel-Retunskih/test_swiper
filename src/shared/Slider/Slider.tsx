@@ -1,6 +1,7 @@
 "use client";
 import React, {useEffect, useRef, useState} from "react";
 import {SliderContainer} from "@/shared/Slider/SliderContainer/SliderContainer";
+import {SliderButtons} from "@/shared/Slider/SliderButtons/SliderButtons";
 
 export const Swiper = () => {
   const [startX, setStartX] = useState(0);
@@ -71,6 +72,7 @@ export const Swiper = () => {
           className="overflow-hidden w-full"
 
       >
+        <SliderButtons cards={cards} setCurrentIndex={setCurrentIndex} currentIndex={currentIndex}/>
         <SliderContainer
             currentIndex={currentIndex}
             isDragging={isDragging}
