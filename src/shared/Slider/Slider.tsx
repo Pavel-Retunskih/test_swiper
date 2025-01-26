@@ -2,16 +2,18 @@
 import React, {useEffect, useRef, useState} from "react";
 import {SliderContainer} from "@/shared/Slider/SliderContainer/SliderContainer";
 import {SliderButtons} from "@/shared/Slider/SliderButtons/SliderButtons";
+import {Card} from "@/shared/Card/Card";
 
-export const Swiper = () => {
+type Swiper = {
+  cards: Card[];
+}
+
+export const Swiper = ({cards}: Swiper) => {
   const [startX, setStartX] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [maxCardCount, setMaxCardCount] = useState(1);
   const containerRef = useRef<HTMLDivElement>(null);
-
-
-  const cards = ["Card 1", "Card 2", "Card 3", "Card 4", "Card 5", "Card 6", "Card 7", "Card 8"];
 
   const updateMaxCardCount = () => {
     if (containerRef.current) {

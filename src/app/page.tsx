@@ -4,8 +4,10 @@ import {Swiper} from "@/shared/Slider/Slider";
 import React from "react";
 
 
-export default function Home() {
-
+export default async function Home() {
+  const res = await fetch("http://localhost:3000/api/cards")
+  const cards = await res.json();
+  console.log(cards);
   return <main className={'flex flex-col'}>
     <header className={'flex items-center max-w-screen-xl w-full'}>
       <div className={'flex items-center gap-6 grow max-w-[300px]'}>
@@ -34,7 +36,7 @@ export default function Home() {
       <h2>Наши услуги</h2>
     </section>
     <section className={'max-w-screen-xl'}>
-      <Swiper/>
+      <Swiper cards={cards}/>
     </section>
   </main>
 }

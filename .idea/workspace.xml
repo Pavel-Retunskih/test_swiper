@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faace37a-5fef-4069-863d-5b88f6f1d873" name="Changes" comment="add buttons">
+    <list default="true" id="faace37a-5fef-4069-863d-5b88f6f1d873" name="Changes" comment="as">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/cards/route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/Frame_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/Frame_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Card/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Card/Card.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/Slider/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Slider/Slider.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/Slider/SliderButtons/SliderButtons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Slider/SliderButtons/SliderButtons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Slider/SliderContainer/SliderContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Slider/SliderContainer/SliderContainer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +75,10 @@
       <recent name="C:\Users\Mimik\WebstormProjects\test_slider\src\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mimik\WebstormProjects\test_slider\public" />
+      <recent name="C:\Users\Mimik\WebstormProjects\test_slider\src\assets\images" />
+      <recent name="C:\Users\Mimik\WebstormProjects\test_slider\src\app\api\cards" />
+      <recent name="C:\Users\Mimik\WebstormProjects\test_slider\src\app" />
       <recent name="C:\Users\Mimik\WebstormProjects\test_slider" />
     </key>
   </component>
@@ -95,7 +103,7 @@
       <workItem from="1737898979478" duration="3426000" />
       <workItem from="1737902482722" duration="54000" />
       <workItem from="1737902558741" duration="5302000" />
-      <workItem from="1737912520223" duration="317000" />
+      <workItem from="1737912520223" duration="4722000" />
     </task>
     <task id="LOCAL-00001" summary="add buttons">
       <option name="closed" value="true" />
@@ -105,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737910656663</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="as">
+      <option name="closed" value="true" />
+      <created>1737912847355</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737912847355</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +140,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="add buttons" />
+    <MESSAGE value="as" />
+    <option name="LAST_COMMIT_MESSAGE" value="as" />
   </component>
 </project>

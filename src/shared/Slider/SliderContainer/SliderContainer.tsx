@@ -1,7 +1,8 @@
 import React, {forwardRef} from "react";
+import {Card} from "@/shared/Card/Card";
 
 type Props = {
-  cards: string[];
+  cards: Card[];
   isDragging: boolean;
   currentIndex: number;
   visibleCount: number;
@@ -31,24 +32,12 @@ export const SliderContainer = forwardRef<HTMLDivElement, Props>(
                   gap: `${gap}px`,
                 }}
             >
-              {cards.map((card, index) => (
-                  <div
-                      key={index}
-                      style={{
-                        width: `${cardWidth}px`,
-                        height: "200px",
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        background: "#007aff",
-                        color: "#fff",
-                        fontSize: "24px",
-                        borderRadius: "8px",
-                        touchAction: "none"
-                      }}
+              {cards.map(({imgAlt, imgUrl, title, description}, index) => (
+                  <Card imgAlt={imgAlt} imgUrl={imgUrl} title={title} description={description}
+                        key={index}
                   >
-                    {card}
-                  </div>
+
+                  </Card>
               ))}
             </div>
           </div>

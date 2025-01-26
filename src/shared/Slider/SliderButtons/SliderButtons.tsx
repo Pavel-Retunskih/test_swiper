@@ -1,8 +1,9 @@
 'use client'
 import {ComponentPropsWithoutRef} from "react";
+import {Card} from "@/shared/Card/Card";
 
 type SliderButtons = {
-  cards: string[],
+  cards: Card[],
   currentIndex: number
   setCurrentIndexAction: (num: number) => void
 } & ComponentPropsWithoutRef<'div'>
