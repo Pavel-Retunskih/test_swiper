@@ -2,11 +2,11 @@ import Logo from "@/assets/svg/Logo";
 import ExitIcon from "@/assets/svg/ExitIcon";
 import {Swiper} from "@/shared/Slider/Slider";
 import React from "react";
-import {Card} from "@/shared/Card/Card";
+
+import {mockData} from "@/data/data";
 
 export default async function Home() {
-  const res = await fetch("/api/cards/", {cache: 'force-cache'});
-  const cards: Card[] = await res.json();
+
   return (
       <main className={'flex flex-col p-4'}>
         <header className={'flex justify-between items-center max-w-screen-xl w-full'}>
@@ -36,7 +36,7 @@ export default async function Home() {
           <h2>Наши услуги</h2>
         </section>
         <section className={'max-w-screen-xl'}>
-          <Swiper cards={cards}/>
+          <Swiper cards={mockData}/>
         </section>
       </main>
   );

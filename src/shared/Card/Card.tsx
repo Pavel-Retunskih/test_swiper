@@ -1,7 +1,7 @@
-import Image, {StaticImageData} from 'next/image'
+import Image from 'next/image'
 
 export type Card = {
-  imgUrl: StaticImageData;
+  imgUrl: string;
   imgAlt: string;
   title: string;
   description: string;
