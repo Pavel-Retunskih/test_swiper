@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faace37a-5fef-4069-863d-5b88f6f1d873" name="Changes" comment="fix props svg">
+    <list default="true" id="faace37a-5fef-4069-863d-5b88f6f1d873" name="Changes" comment="fix svg">
       <change beforePath="$PROJECT_DIR$/src/assets/svg/ExitIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/ExitIcon.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +102,7 @@
       <workItem from="1737912520223" duration="4781000" />
       <workItem from="1737923918063" duration="2466000" />
       <workItem from="1738166802199" duration="5406000" />
-      <workItem from="1738176729033" duration="4672000" />
+      <workItem from="1738176729033" duration="4725000" />
     </task>
     <task id="LOCAL-00001" summary="add buttons">
       <option name="closed" value="true" />
@@ -144,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738182349497</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix svg">
+      <option name="closed" value="true" />
+      <created>1738182521499</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738182521499</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +175,7 @@
     <MESSAGE value="add mock" />
     <MESSAGE value="add styles" />
     <MESSAGE value="fix props svg" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix props svg" />
+    <MESSAGE value="fix svg" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix svg" />
   </component>
 </project>

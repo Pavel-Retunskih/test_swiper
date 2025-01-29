@@ -7,7 +7,7 @@ const SvgArrowBackOutline = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElem
       <defs/>
       <path id="Exclude"
             d="M9 0L26 0C28.209 0 30 1.79102 30 4L30 24C30 26.209 28.209 28 26 28L9 28C6.79102 28 5 26.209 5 24L5 15.0371L19.0366 15.0371L13.6597 20.5483L15.3188 22L23 14L15.3188 6L13.6597 7.45166L19.0366 12.9629L5 12.9629L5 4C5 1.79102 6.79102 0 9 0ZM5 12.9629L0 12.9629L0 15.0371L5 15.0371L5 12.9629Z"
-            clip-rule="evenodd" fill="#000000" fill-opacity="1.000000" fill-rule="evenodd"/>
+            clipRule="evenodd" fill="#000000" fillOpacity="1.000000" fillRule="evenodd"/>
     </svg>
 
 )
