@@ -1,7 +1,8 @@
 import {Ref, SVGProps, forwardRef, memo} from 'react'
 
 const SvgArrowBackOutline = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => (
-    <svg width="23.000000" height="16.000000" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+    <svg ref={ref} {...props} width="23.000000" height="16.000000" viewBox="0 0 23 16" fill="none"
+         xmlns="http://www.w3.org/2000/svg"
          xmlnsXlink="http://www.w3.org/1999/xlink">
 
       <defs/>
