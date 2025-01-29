@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="faace37a-5fef-4069-863d-5b88f6f1d873" name="Changes" comment="fix svg">
-      <change beforePath="$PROJECT_DIR$/src/assets/svg/ExitIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/ExitIcon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,7 @@
       <workItem from="1737912520223" duration="4781000" />
       <workItem from="1737923918063" duration="2466000" />
       <workItem from="1738166802199" duration="5406000" />
-      <workItem from="1738176729033" duration="4725000" />
+      <workItem from="1738176729033" duration="4788000" />
     </task>
     <task id="LOCAL-00001" summary="add buttons">
       <option name="closed" value="true" />
@@ -152,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738182521499</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix svg">
+      <option name="closed" value="true" />
+      <created>1738182578420</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738182578420</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

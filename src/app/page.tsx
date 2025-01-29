@@ -20,7 +20,7 @@ export default async function Home() {
           <li>Курсы</li>
           <li>Библиотека</li>
         </ul>
-        <div>
+        <div className={'flex items-center gap-6'}>
             <span>
               Вход
             </span>
