@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faace37a-5fef-4069-863d-5b88f6f1d873" name="Changes" comment="add styles">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="faace37a-5fef-4069-863d-5b88f6f1d873" name="Changes" comment="fix props svg">
       <change beforePath="$PROJECT_DIR$/src/assets/svg/ExitIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/ExitIcon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/svg/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/svg/Logo.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +102,7 @@
       <workItem from="1737912520223" duration="4781000" />
       <workItem from="1737923918063" duration="2466000" />
       <workItem from="1738166802199" duration="5406000" />
-      <workItem from="1738176729033" duration="4482000" />
+      <workItem from="1738176729033" duration="4672000" />
     </task>
     <task id="LOCAL-00001" summary="add buttons">
       <option name="closed" value="true" />
@@ -138,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738182010414</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix props svg">
+      <option name="closed" value="true" />
+      <created>1738182349497</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738182349497</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +166,7 @@
     <MESSAGE value="as" />
     <MESSAGE value="add mock" />
     <MESSAGE value="add styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add styles" />
+    <MESSAGE value="fix props svg" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix props svg" />
   </component>
 </project>
