@@ -13,6 +13,9 @@ export default {
 
       },
       colors: {
+        primary: {
+          purple: '#A59DFF'
+        },
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

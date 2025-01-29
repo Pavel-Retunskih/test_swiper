@@ -14,7 +14,8 @@ export function SliderButtons({cards, setCurrentIndexAction, currentIndex, ...re
   return <div{...rest}>
     {cards.map((_, index) => {
       return (<button onClick={() => setCurrentIndexAction(index)} key={index}
-                      className={index === currentIndex ? 'transform w-20 relative h-2 rounded bg-gray-300 before:absolute' +
+                      className={index === currentIndex ? 'transform w-10 relative h-2 rounded bg-gray-300' +
+                          ' before:absolute' +
                           ' before:block before:rounded  before:-translate-y-1/2 before:bg-black before:h-2' +
                           ' before:w-5 before:content-[""]' : ' bg-gray-300' +
                           ' h-2 w-2' +
