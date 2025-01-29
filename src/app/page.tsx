@@ -7,7 +7,6 @@ import React from "react";
 export default async function Home() {
   const res = await fetch("http://localhost:3000/api/cards")
   const cards = await res.json();
-  console.log(cards);
   return <main className={'flex flex-col p-4'}>
     <header className={'flex justify-between items-center max-w-screen-xl w-full'}>
       <div className={'flex items-center gap-6 grow max-w-[320px]'}>

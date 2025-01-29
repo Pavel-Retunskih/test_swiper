@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faace37a-5fef-4069-863d-5b88f6f1d873" name="Changes" comment="fix svg">
+    <list default="true" id="faace37a-5fef-4069-863d-5b88f6f1d873" name="Changes" comment="fix exit button">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/Slider/SliderContainer/SliderContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Slider/SliderContainer/SliderContainer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +104,7 @@
       <workItem from="1737912520223" duration="4781000" />
       <workItem from="1737923918063" duration="2466000" />
       <workItem from="1738166802199" duration="5406000" />
-      <workItem from="1738176729033" duration="4788000" />
+      <workItem from="1738176729033" duration="5017000" />
     </task>
     <task id="LOCAL-00001" summary="add buttons">
       <option name="closed" value="true" />
@@ -160,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738182578420</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix exit button">
+      <option name="closed" value="true" />
+      <created>1738182646254</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738182646254</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +194,7 @@
     <MESSAGE value="add styles" />
     <MESSAGE value="fix props svg" />
     <MESSAGE value="fix svg" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix svg" />
+    <MESSAGE value="fix exit button" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix exit button" />
   </component>
 </project>

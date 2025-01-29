@@ -13,7 +13,7 @@ export const SliderContainer = forwardRef<HTMLDivElement, Props>(
       const cardWidth = 400;
       const gap = 10;
       const visibleWidth = visibleCount * (cardWidth + gap);
-
+      SliderContainer.displayName = "SliderContainer";
 
       return (
           <div
